@@ -1,0 +1,5 @@
+%%writefile myfile.txt
+hello this is a text file
+this is a second line
+this is a third line
+
