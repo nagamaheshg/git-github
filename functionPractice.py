@@ -128,3 +128,24 @@ result = blackjack(9,9,9)
 print(result)
 result = blackjack(9,9,11)
 print(result)
+
+def spy_game(arr):
+	new_array = [0,0,7,'x']
+	for num in arr:
+		if num == new_array[0]:
+			new_array.pop(0)
+	return len(new_array) == 1
+
+result = spy_game([1,2,4,0,0,7,5])
+print(result)
+result = spy_game([1,0,2,4,0,5,7])
+print(result)
+
+result = spy_game([1,7,2,0,4,5,0])
+print(result)
+
+
+
+
+
+
